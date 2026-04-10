@@ -19,3 +19,8 @@
     pointer-events: none;
 }
 
+.dot-loader {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
