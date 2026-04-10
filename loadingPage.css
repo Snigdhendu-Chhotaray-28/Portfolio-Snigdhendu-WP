@@ -14,3 +14,8 @@
     transition: opacity 0.5s ease-out;
 }
 
+.dot-loader-container.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
