@@ -1,0 +1,16 @@
+/* ============================ Dot Loader Styles ============================ */
+.dot-loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-80deg, #131331 0%, #0a0a35 50%, #07070f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
