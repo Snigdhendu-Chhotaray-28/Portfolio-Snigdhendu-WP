@@ -48,3 +48,18 @@
     animation-delay: 0s;
 }
 
+/* --- Keyframes for the UP/DOWN Bounce Animation --- */
+@keyframes dotBounce {
+    0%, 100% {
+        /* Start and End position (lowered) */
+        transform: translateY(0);
+        opacity: 0.7; /* Slightly faded when low */
+        box-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
+    }
+    50% {
+        /* Highest point of the bounce */
+        transform: translateY(-20px); /* Adjust this value for bounce height */
+        opacity: 1; /* Fully opaque when high */
+        box-shadow: 0 0 30px rgba(0, 212, 255, 0.8);
+    }
+}
