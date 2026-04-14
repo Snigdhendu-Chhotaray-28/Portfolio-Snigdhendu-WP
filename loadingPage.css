@@ -63,3 +63,18 @@
         box-shadow: 0 0 30px rgba(0, 212, 255, 0.8);
     }
 }
+/* ------------------------------------------------ */
+
+/* Optional: Add loading text below dots */
+.loading-text {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #00d5ff;
+    font-family: "Geist Mono", monospace;
+    font-size: 14px;
+    letter-spacing: 3px;
+    animation: pulse 2s infinite;
+}
+
