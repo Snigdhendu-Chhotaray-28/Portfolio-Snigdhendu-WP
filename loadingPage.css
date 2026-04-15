@@ -100,3 +100,7 @@
     z-index: 999;
     opacity: 1;
 }
+
+.loading.start-animation {
+    animation: fadeOutLoadingContainer 1.5s ease-out 2s forwards;
+}
