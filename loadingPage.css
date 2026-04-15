@@ -104,3 +104,28 @@
 .loading.start-animation {
     animation: fadeOutLoadingContainer 1.5s ease-out 2s forwards;
 }
+
+/* @keyframes fadeOutLoadingContainer {
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} */
+
+/* In loadingPage.css */
+
+@keyframes fadeOutLoadingContainer {
+    from {
+        opacity: 1;
+        visibility: visible;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden; /* Add this */
+        pointer-events: none; /* And add this */
+    }
+}
+
+
