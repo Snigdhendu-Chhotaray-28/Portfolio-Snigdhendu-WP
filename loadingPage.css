@@ -147,3 +147,7 @@
     animation: opacityText 1s 2s forwards;
 }
 
+@keyframes opacityText {
+    from {opacity: 1;}
+    to  {opacity: 0;}
+}
