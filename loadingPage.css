@@ -142,3 +142,8 @@
     opacity: 0;
 }
 
+.loading.start-animation .loading__text {
+    opacity: 1;
+    animation: opacityText 1s 2s forwards;
+}
+
