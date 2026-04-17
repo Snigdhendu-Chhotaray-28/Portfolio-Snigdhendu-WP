@@ -156,3 +156,7 @@
     opacity: 0;
 }
 
+.loading.start-animation .loading__text div {
+    animation: moveUp 0.5s forwards;
+    animation-delay: calc(var(--i) * 0.1s);
+}
