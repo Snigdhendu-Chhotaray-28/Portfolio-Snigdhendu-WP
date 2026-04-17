@@ -151,3 +151,8 @@
     from {opacity: 1;}
     to  {opacity: 0;}
 }
+
+.loading__text div{
+    opacity: 0;
+}
+
