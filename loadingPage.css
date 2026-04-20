@@ -174,3 +174,11 @@
     width: 100vw;
     z-index: 200;
 }
+
+.strips div{
+    width: 20%;
+    height: 100vh;
+    background: var(--loading-color);
+    opacity: 1;
+}
+
