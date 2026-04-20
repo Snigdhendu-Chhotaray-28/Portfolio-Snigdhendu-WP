@@ -182,3 +182,7 @@
     opacity: 1;
 }
 
+.loading.start-animation .strips div {
+    animation: fadeOut 1s forwards;
+    animation-delay: calc(var(--i) * 0.2s + 0.5s); 
+}
