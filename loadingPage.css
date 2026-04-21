@@ -203,4 +203,7 @@
     transition: opacity 2s ease;
 }
 
-
+@keyframes fadeIn {
+  from { opacity: 0;}
+  to   { opacity: 1;}
+}
