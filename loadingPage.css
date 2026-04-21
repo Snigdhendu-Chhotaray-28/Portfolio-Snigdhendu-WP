@@ -192,4 +192,15 @@
   to   { opacity: 0; transform: translateY(100vh); }
 }
 
+/* ============================ Main page ============================ */
+.main__page{
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.main__page.fade-in {
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
 
