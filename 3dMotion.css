@@ -10,3 +10,13 @@
     transform-style: preserve-3d;
 }
 
+.about_content .imgs img {
+    width: 180px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
