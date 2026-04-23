@@ -34,3 +34,10 @@
     transform-origin: center center;
     animation: triangleRotate2 16s linear infinite;
 }
+
+.about_content .imgs .img3 {
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    animation: triangleRotate3 16s linear infinite;
+}
