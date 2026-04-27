@@ -228,3 +228,16 @@
 
 
 
+
+
+/* ============================ About: Imgs ============================ */
+/* 3D Triangle Rotation Container */
+.about_content .imgs {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    perspective: 1500px;
+    perspective-origin: center center;
+    transform-style: preserve-3d;
+}
+
