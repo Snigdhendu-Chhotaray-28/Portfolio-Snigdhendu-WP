@@ -594,4 +594,40 @@
     }
   }
 
+  @keyframes triangleRotate4 {
+    0% {
+      transform: translate(-50%, -50%)
+        rotateY(270deg)
+        translateZ(100px);
+      z-index: 8;
+    }
+    
+    25% {
+      transform: translate(-50%, -50%)
+        rotateY(360deg)
+        translateZ(100px);
+      z-index: 10;
+    }
+    
+    50% {
+      transform: translate(-50%, -50%)
+        rotateY(450deg)
+        translateZ(100px);
+      z-index: 8;
+    }
+    
+    75% {
+      transform: translate(-50%, -50%)
+        rotateY(540deg)
+        translateZ(100px);
+      z-index: 5;
+    }
+    
+    100% {
+      transform: translate(-50%, -50%)
+        rotateY(630deg)
+        translateZ(100px);
+      z-index: 8;
+    }
+  }
 }
