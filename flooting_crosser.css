@@ -75,3 +75,8 @@
   left: 0;
   animation: rotate-text 7s linear infinite;
 }
+
+@keyframes rotate-text {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
