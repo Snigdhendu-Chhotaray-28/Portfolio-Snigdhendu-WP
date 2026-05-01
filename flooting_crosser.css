@@ -55,3 +55,13 @@
   transition: border-color 0.3s ease;
 }
 
+
+
+.eye-icon {
+  width: 30px;
+  height:30px;
+  fill: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+  transition: fill 0.3s ease;
+}
+
