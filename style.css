@@ -24,3 +24,11 @@
     scroll-behavior: smooth;
 }
 
+.main__page{
+    /* overflow-x: hidden; */
+}
+
+html{
+    background-color: black;
+}
+
