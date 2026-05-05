@@ -1,0 +1,19 @@
+/* ============================ VARIABLES CSS ============================ */
+:root {
+    /* ============================ Colors ============================ */
+    --main-bg-color: linear-gradient(135deg, #1a1a2e 0%, #080c19 50%, #080c19 100%);
+    --button-color: linear-gradient(135deg, #00d5ff, rgb(189, 226, 255), #00b4d8);
+    --loading-color: linear-gradient(-80deg, #131331 0%, #0a0a35 50%, #07070f 100%);
+    --heading-text-color: #00d4ff;
+    --title-color: white;
+    --text-color: #aaa;
+    --alt-text-color: rgb(64, 204, 255);
+    --alt-bg-primary-color: rgb(8, 27, 41);
+    --alt-bg-secondary-color: rgb(1,2,7);
+
+    /* ============================ Txt size ============================ */
+    --sub-header-txt: 2.5rem;
+    --intermediat-txt: 1.5rem;
+    --higher_txt: 1.25rem;
+}
+
