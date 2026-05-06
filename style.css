@@ -32,3 +32,14 @@ html{
     background-color: black;
 }
 
+/* ============================ Body ============================ */
+body {
+    font-family: 'Arial', sans-serif;
+    background: var(--alt-bg-secondary-color);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-top: 7rem;
+    width: 100vw;
+    overflow-x: hidden;
+}
