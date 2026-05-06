@@ -43,3 +43,10 @@ body {
     width: 100vw;
     overflow-x: hidden;
 }
+
+/* ============================ Pre-defined classes ============================ */
+.flex_row{
+    display: flex;
+    justify-content: center;
+}
+
