@@ -75,3 +75,11 @@ body {
   font-style: italic;
 }
 
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
