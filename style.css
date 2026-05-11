@@ -117,3 +117,17 @@ body {
     animation: color__change__anim 15s ease-in-out infinite;
 }
 
+@keyframes color__change__anim {
+    0%,100% {
+        background-position: 100% 100%;
+        text-shadow:0 0 50px rgba(255, 252, 222, 0.5);
+        /* text-shadow:0 0 30px rgba(255, 255, 255, 0.57); */
+        color: rgb(255, 252, 222);
+    }
+    50% {
+        background-position: 10% 100%;
+        text-shadow: 0 0 50px rgba(255, 252, 222, 0.1);
+        color: rgb(255, 255, 255);
+    }
+}
+
