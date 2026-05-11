@@ -98,3 +98,13 @@ body {
   font-style: normal;
 }
 
+.geist-mono-font {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+
