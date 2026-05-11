@@ -107,4 +107,13 @@ body {
   font-size: 18px;
 }
 
+/* ============================ Text Animation ============================ */
+
+.color__change{
+    font-size: 50px;
+    margin-bottom: 1rem;
+    text-shadow:  0 0 50px rgba(255, 252, 222, 0.5);
+    color: rgb(255, 252, 222);
+    animation: color__change__anim 15s ease-in-out infinite;
+}
 
