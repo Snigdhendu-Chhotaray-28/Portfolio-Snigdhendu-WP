@@ -144,3 +144,15 @@ body {
     animation: gradient-slide 15s ease-in-out infinite;
 }
 
+@keyframes gradient-slide {
+    0%, 100% {
+        background-position: 10% 100%;
+        text-shadow: 0 0 50px rgba(255, 252, 222, 0.1);
+    }
+    50% {
+        background-position: 100% 100%;
+        text-shadow:0 0 50px rgba(255, 252, 222, 0.7);
+        /* text-shadow:0 0 30px rgba(255, 255, 255, 0.57); */
+    }
+}
+
