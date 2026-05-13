@@ -185,3 +185,7 @@ header.fade-in {
     z-index: 200;
 }
 
+.menu_bar .icon img{
+    width: 50px;
+}
+
