@@ -211,3 +211,7 @@ header.fade-in {
     font-size: 14px;
 }
 
+.menu_bar li a{
+    color: white;
+    text-decoration: none;
+}
