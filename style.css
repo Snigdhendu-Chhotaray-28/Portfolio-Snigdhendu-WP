@@ -203,5 +203,11 @@ header.fade-in {
     border: 1px solid rgba(46, 46, 46, 0.74);
 }
 
-
+.menu_bar li{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.4rem 1rem;
+    border-radius: 5rem;
+    font-size: 14px;
+}
 
