@@ -215,3 +215,8 @@ header.fade-in {
     color: white;
     text-decoration: none;
 }
+
+.menu_bar li:hover {
+    background: rgba(255, 255, 255, 0.122);
+}
+
