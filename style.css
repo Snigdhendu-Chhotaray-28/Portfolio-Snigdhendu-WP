@@ -224,3 +224,10 @@ header.fade-in {
     opacity: 0;
 }
 
+/* ============================ Quick Access ============================ */
+.quick_access img{
+  width: 50px;
+  position: relative;
+  bottom: 5px;
+  cursor: pointer;
+}
