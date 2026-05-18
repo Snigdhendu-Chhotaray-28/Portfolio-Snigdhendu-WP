@@ -237,3 +237,11 @@ header.fade-in {
     display: none;
     opacity: 0;
 }
+
+.quick_access_visible{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
