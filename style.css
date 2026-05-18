@@ -231,3 +231,9 @@ header.fade-in {
   bottom: 5px;
   cursor: pointer;
 }
+
+.quick_access_elements{
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
