@@ -245,3 +245,12 @@ header.fade-in {
     transition: opacity 2s ease;
 }
 
+/* Loading animation as present in loadingPage.css and also the main page display. */
+
+/* ============================ Hero Section (1st page) ============================ */
+.hero{
+  background-image: url("/Resources/next.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
