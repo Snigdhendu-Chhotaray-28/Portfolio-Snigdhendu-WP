@@ -267,3 +267,17 @@ header.fade-in {
     z-index: 1;
 }
 
+.star {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    animation-name: twinkle;
+    animation-duration: 15s;
+    animation-iteration-count: infinite, infinite;
+    animation-fill-mode: both, both;
+    animation-timing-function: ease-in-out, ease-in-out;
+    pointer-events: none;
+    z-index: 5;
+}
+
