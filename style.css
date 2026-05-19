@@ -281,3 +281,15 @@ header.fade-in {
     z-index: 5;
 }
 
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+        background-color: #fff;
+    }
+    30%,70% {
+        opacity: 0;
+        transform: scale(0.2);
+        background-color: #fff;
+    }
+}
