@@ -293,3 +293,22 @@ header.fade-in {
         background-color: #fff;
     }
 }
+
+@keyframes float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(10px, -40px);
+    }
+    50% {
+        transform: translate(-20px, 10px);
+    }
+    75% {
+        transform: translate(20px, 20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
