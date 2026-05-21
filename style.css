@@ -362,3 +362,14 @@ header.fade-in {
   font-size: 12px;
   margin-right: 1rem;
 }
+
+/* ============================ Latest project access btn : Bouncing arrow ============================ */
+.letest i{
+  font-size: 12px;
+  margin: 0rem 0.5rem;
+  position: relative;
+  left: -5px;
+  top: 0.4px;
+  animation: right_jump 2s linear 3s infinite normal;
+}
+
