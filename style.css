@@ -344,3 +344,13 @@ header.fade-in {
   background-position: 0% 0; 
   animation: barMove 2s linear 1s infinite normal;
 }
+
+@keyframes barMove {
+    0%,100%{
+        background-position: 0% 0;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+}
+
