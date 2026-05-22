@@ -373,3 +373,24 @@ header.fade-in {
   animation: right_jump 2s linear 3s infinite normal;
 }
 
+@keyframes right_jump {
+    0%{
+        left: -5px;
+    }
+    20%{
+        left: 7px;
+    }
+    40%{
+        left: -5px;
+    }
+    50%{
+        left: 0px;
+    }
+    60%{
+        left: -5px;
+    }
+    100%{
+        left: -5px;
+    }
+}
+
