@@ -403,3 +403,13 @@ header.fade-in {
     align-items: center;
 }
 
+/* ============================ Hero: Animation motion bar ============================ */
+.motion__bar{
+    background: radial-gradient(50% 50%,#ffffff73 0,#0a0a0a00 100%);
+    height: 100px;
+    width: 40vw;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 0;
+    animation: side__bar 8s linear 0s infinite normal;
+}
