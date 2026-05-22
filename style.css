@@ -394,3 +394,12 @@ header.fade-in {
     }
 }
 
+/* ============================ Hero: Heading ============================ */
+.hero_header{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 55px;
+    font-style: normal;
+    align-items: center;
+}
+
