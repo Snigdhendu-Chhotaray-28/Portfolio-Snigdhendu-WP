@@ -413,3 +413,22 @@ header.fade-in {
     z-index: 0;
     animation: side__bar 8s linear 0s infinite normal;
 }
+
+@keyframes side__bar {
+    0%,100%{
+        left: 20%;
+        margin-top: 140px;
+        transform: rotate(-4deg);
+    }
+    25%,75%{
+        margin-top: 100px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 40%;
+        margin-top: 140px;
+        transform: rotate(4deg);
+    }
+}
+
+
