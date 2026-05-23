@@ -441,4 +441,7 @@ header.fade-in {
     right: 14px;
 }
 
+.line1 span{
+    color: var(--alt-bg-secondary-color);
+}
 
