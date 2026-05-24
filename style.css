@@ -460,3 +460,8 @@ header.fade-in {
     left: 40%;
     opacity: 0;
 }
+
+.waving__hand_animation{
+    opacity: 1;
+    animation: wave_hand 0.5s linear 0s infinite normal;
+}
