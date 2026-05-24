@@ -454,3 +454,9 @@ header.fade-in {
 }
 
 /* ============================ Hero waving hand ============================ */
+.waving__hand{
+    width: 40px;
+    position: absolute;
+    left: 40%;
+    opacity: 0;
+}
