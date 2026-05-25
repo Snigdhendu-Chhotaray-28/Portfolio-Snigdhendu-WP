@@ -477,3 +477,13 @@ header.fade-in {
     }
 }
 
+/* ============================ Hero: Btns ============================ */
+.hero_btn{
+    align-items: center;
+    margin-bottom: 6rem;
+    z-index: 5;
+    gap: 3rem;
+    position: relative;
+    right: 5.5%;
+}
+
