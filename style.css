@@ -465,3 +465,15 @@ header.fade-in {
     opacity: 1;
     animation: wave_hand 0.5s linear 0s infinite normal;
 }
+
+@keyframes wave_hand {
+    0%,100%{
+        transform: rotate(0deg);
+        transform-origin: bottom right;
+    }
+    50%{
+        transform: rotate(10deg);
+        transform-origin: bottom right;
+    }
+}
+
