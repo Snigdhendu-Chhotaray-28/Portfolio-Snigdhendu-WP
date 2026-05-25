@@ -487,3 +487,21 @@ header.fade-in {
     right: 5.5%;
 }
 
+/* ============================ Hero: Let's contact btn ============================ */
+.hero_connect_btn {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ font-family: inherit;
+ width: 13rem; /* Consolidated */
+ height: auto; /* Consolidated */
+ border: 2px solid rgb(255, 255, 255); /* Consolidated */
+ border-radius: 100px; /* Consolidated */
+}
