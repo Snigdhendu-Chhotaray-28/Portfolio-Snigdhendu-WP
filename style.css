@@ -525,3 +525,11 @@ header.fade-in {
  margin: auto;
  background: #fff;
 }
+
+.hero_connect_btn .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
