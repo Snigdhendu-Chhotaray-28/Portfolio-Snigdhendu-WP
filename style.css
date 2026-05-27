@@ -562,3 +562,6 @@ header.fade-in {
  text-transform: uppercase;
 }
 
+.hero_connect_btn:hover .circle {
+ width: 100%;
+}
