@@ -533,3 +533,16 @@ header.fade-in {
  height: 0.125rem;
  background: none;
 }
+
+.hero_connect_btn .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #000000;
+ border-right: 0.125rem solid #000000;
+ transform: rotate(45deg);
+}
+
