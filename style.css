@@ -574,3 +574,17 @@ header.fade-in {
 .hero_connect_btn:hover .button-text {
  color: #000000;
 }
+
+/* ============================ Hero: Project btn ============================ */
+.hero_project_btn{
+    width: 100px;
+    height: 80px;
+    border: 50%;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-family: "Instrument Serif", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
