@@ -565,3 +565,9 @@ header.fade-in {
 .hero_connect_btn:hover .circle {
  width: 100%;
 }
+
+.hero_connect_btn:hover .circle .icon.arrow {
+ background: #000000;
+ transform: translate(1rem, 0);
+}
+
