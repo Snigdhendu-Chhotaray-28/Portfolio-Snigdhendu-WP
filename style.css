@@ -571,3 +571,6 @@ header.fade-in {
  transform: translate(1rem, 0);
 }
 
+.hero_connect_btn:hover .button-text {
+ color: #000000;
+}
