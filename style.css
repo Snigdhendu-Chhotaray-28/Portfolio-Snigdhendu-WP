@@ -588,3 +588,15 @@ header.fade-in {
     font-weight: 400;
 }
 
+/* From Uiverse.io by 0x-Sarthak */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 11.5px 18px;
+  transition: all 0.2s ease;
+  border: 3px solid #552da8;
+  border-radius: 50px;
+  background: #552da8;
+  cursor: pointer;
+}
+
