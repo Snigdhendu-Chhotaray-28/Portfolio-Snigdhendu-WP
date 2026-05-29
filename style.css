@@ -613,3 +613,11 @@ header.fade-in {
   transition: all 0.8s ease;
 }
 
+.cta span {
+  position: relative;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
