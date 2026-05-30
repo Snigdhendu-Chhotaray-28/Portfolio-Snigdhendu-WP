@@ -640,3 +640,8 @@ header.fade-in {
   background: #1c1c1c;
 }
 
+.cta:hover svg {
+  transform: translateX(0);
+  transition: all 2s ease;
+}
+
