@@ -635,3 +635,8 @@ header.fade-in {
   transition: all 0.5s ease;
 }
 
+.cta:hover:before {
+  width: 100%;
+  background: #1c1c1c;
+}
+
