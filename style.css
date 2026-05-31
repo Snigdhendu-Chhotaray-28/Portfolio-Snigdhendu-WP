@@ -645,3 +645,8 @@ header.fade-in {
   transition: all 2s ease;
 }
 
+.cta:active {
+  transform: scale(0.95);
+  transition: all 2s ease;
+}
+
