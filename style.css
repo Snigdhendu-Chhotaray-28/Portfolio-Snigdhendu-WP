@@ -650,3 +650,11 @@ header.fade-in {
   transition: all 2s ease;
 }
 
+/* ============================ About ============================ */
+.about{
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10%;
+    font-family: "Instrument Serif", serif;
+}
+
