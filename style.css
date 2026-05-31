@@ -658,3 +658,8 @@ header.fade-in {
     font-family: "Instrument Serif", serif;
 }
 
+.about h1{
+    font-size: var(--sub-header-txt); /* Use variable for size, assuming it was missing */
+    margin-bottom: 40px;
+    text-shadow: 0 0 30px rgb(255, 230, 66);
+}
