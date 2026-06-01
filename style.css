@@ -672,3 +672,7 @@ header.fade-in {
     justify-content: space-between;
 }
 
+.about_content .content{
+    width: 70%;
+    align-self: flex-start;
+}
