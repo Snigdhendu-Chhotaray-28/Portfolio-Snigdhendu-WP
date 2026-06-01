@@ -668,3 +668,7 @@ header.fade-in {
 .about p{
     font-size: 12px;
 }
+.about_content{
+    justify-content: space-between;
+}
+
