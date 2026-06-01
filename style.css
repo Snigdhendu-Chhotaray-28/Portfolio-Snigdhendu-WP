@@ -663,3 +663,8 @@ header.fade-in {
     margin-bottom: 40px;
     text-shadow: 0 0 30px rgb(255, 230, 66);
 }
+
+/* ============================ About: Context ============================ */
+.about p{
+    font-size: 12px;
+}
