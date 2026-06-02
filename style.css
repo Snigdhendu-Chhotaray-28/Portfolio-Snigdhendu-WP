@@ -676,3 +676,9 @@ header.fade-in {
     width: 70%;
     align-self: flex-start;
 }
+
+.about_content .content .outfit-font{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
