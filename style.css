@@ -682,3 +682,10 @@ header.fade-in {
     font-size: 18px;
 }
 
+.sicial__media{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
