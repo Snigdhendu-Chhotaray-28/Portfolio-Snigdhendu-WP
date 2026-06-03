@@ -709,3 +709,12 @@ header.fade-in {
   margin-left: 22%;
 }
 
+.text2 {
+  position: absolute;
+  top: 25%;
+  left: -50px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
