@@ -692,3 +692,14 @@ header.fade-in {
     width: 50%;
     font-size: 16px;
 }
+
+.linkedin_btn {
+  position: relative;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px #2867b2 solid;
+  overflow: hidden;
+}
+
