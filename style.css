@@ -718,3 +718,10 @@ header.fade-in {
   color: white;
 }
 
+.linkedin_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
