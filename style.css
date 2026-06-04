@@ -736,3 +736,8 @@ header.fade-in {
   border-radius: 30px;
   background-color: #2867b2;
 }
+
+.linkedin_btn:hover .linkedin_icon {
+  transform: translateX(96px);
+  transition: transform 0.5s;
+}
