@@ -751,3 +751,15 @@ header.fade-in {
   transform: scale(1.03);
 }
 
+/* 3D motion of about_content class imgs avalavle in 3DMotion.css file */
+
+/* ============================ About: Experience ============================ */
+ 
+.experience{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
