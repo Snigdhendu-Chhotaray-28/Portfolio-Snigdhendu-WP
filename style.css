@@ -741,3 +741,9 @@ header.fade-in {
   transform: translateX(96px);
   transition: transform 0.5s;
 }
+
+.linkedin_btn:hover .text2 {
+  transform: translateX(100px);
+  transition: transform 0.6s;
+}
+
