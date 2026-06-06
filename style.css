@@ -773,3 +773,8 @@ header.fade-in {
     width: 100%;
     margin-top: 50px;
 }
+
+.row1 , .row2{
+    display: flex;
+    gap: 100px;
+}
