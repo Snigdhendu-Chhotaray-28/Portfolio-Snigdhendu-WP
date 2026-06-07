@@ -778,3 +778,8 @@ header.fade-in {
     display: flex;
     gap: 100px;
 }
+
+.experience__column1{
+    width: 30%;
+}
+
