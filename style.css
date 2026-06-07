@@ -787,3 +787,7 @@ header.fade-in {
     margin: 10px 0px;
 }
 
+.experience__column1 p{
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+}
