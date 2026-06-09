@@ -821,3 +821,6 @@ header.fade-in {
     text-transform: capitalize;
 }
 
+.tools .flex_row{
+    justify-content: flex-start;
+}
