@@ -814,3 +814,10 @@ header.fade-in {
     gap: 10px;
 }
 
+.tools ul li{
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.345);
+    padding: 8px 10px;
+    text-transform: capitalize;
+}
+
