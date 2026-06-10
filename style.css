@@ -841,3 +841,15 @@ header.fade-in {
     will-change: transform;
 }
 
+.bar{
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 0px;
+    transform-origin: top;
+    background-image: linear-gradient(to top, #db2777 0%, #3b82f6 50%, #00d5ff 100%);
+    transition: height 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: height;
+    border-radius: 10px;
+    animation: barGlow 3s ease-in-out infinite;
+}
