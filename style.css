@@ -824,3 +824,20 @@ header.fade-in {
 .tools .flex_row{
     justify-content: flex-start;
 }
+
+
+/* ============================ Experience Bar ============================ */
+
+.experience__bar{
+    width: 15px;
+    background-color: #ffffff20;
+    border: 1px solid rgba(255, 255, 255, 0.239);
+    border-radius: 10px;
+    position: relative;
+    right: 72%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    will-change: transform;
+}
+
