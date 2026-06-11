@@ -890,3 +890,7 @@ header.fade-in {
     }
 }
 
+/* Additional pulse animation for the image */
+.experience__bar img:hover {
+    animation: imagePulse 1s ease-in-out infinite;
+}
