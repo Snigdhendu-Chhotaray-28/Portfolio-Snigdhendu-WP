@@ -894,3 +894,14 @@ header.fade-in {
 .experience__bar img:hover {
     animation: imagePulse 1s ease-in-out infinite;
 }
+
+@keyframes imagePulse {
+    0%, 100% {
+        transform: translateY(50%) scale(1);
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    }
+    50% {
+        transform: translateY(50%) scale(1.1);
+        box-shadow: 0 0 40px rgba(59, 130, 246, 1);
+    }
+}
