@@ -905,3 +905,15 @@ header.fade-in {
         box-shadow: 0 0 40px rgba(59, 130, 246, 1);
     }
 }
+
+
+/* ============================ GitHub ============================ */
+
+.github{
+    width: 100%;
+    margin: 0% 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
