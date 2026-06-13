@@ -922,3 +922,8 @@ header.fade-in {
     width: 100%;
 }
 
+.gitHub_body .para{
+    margin: 10px 0px 20px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
