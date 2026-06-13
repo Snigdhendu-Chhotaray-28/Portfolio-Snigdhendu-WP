@@ -917,3 +917,8 @@ header.fade-in {
     margin-top: 100px;
 }
 
+.gitHub_body img{
+    border-radius: 10px;
+    width: 100%;
+}
+
