@@ -927,3 +927,10 @@ header.fade-in {
     font-size: 15px;
     font-weight: 500;
 }
+
+.git_des{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
