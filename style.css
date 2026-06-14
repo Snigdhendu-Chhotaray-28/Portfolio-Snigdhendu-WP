@@ -938,3 +938,13 @@ header.fade-in {
     width: 154px;
 }
 
+.des{
+    display: flex;
+    border: 1.5px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
