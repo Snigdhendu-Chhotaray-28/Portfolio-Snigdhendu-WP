@@ -976,3 +976,7 @@ header.fade-in {
     color: oklch(59.667% 0.22126 258.047);
 }
 
+.git_content{
+    display: flex;
+    flex-direction: column;
+}
