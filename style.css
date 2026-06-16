@@ -961,3 +961,7 @@ header.fade-in {
 .des2 .icon svg{
     color: oklch(76.762% 0.17014 61.25);
 }
+
+.des3{
+    border-color: oklch(79.2% .209 151.711);
+}
