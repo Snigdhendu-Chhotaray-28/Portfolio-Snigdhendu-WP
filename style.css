@@ -972,5 +972,7 @@ header.fade-in {
 .des4{
     border-color:oklch(70.7% .165 254.624);
 }
-
+.des4 .icon svg{
+    color: oklch(59.667% 0.22126 258.047);
+}
 
