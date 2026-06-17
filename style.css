@@ -994,3 +994,14 @@ header.fade-in {
 }
 
 
+/* ============================ Work (Projects) ============================ */
+
+.work{
+    margin: 200px 100px;
+    align-items: center;
+}
+
+/* .work h1{
+    margin-bottom: 60px;
+} */
+
