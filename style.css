@@ -1005,3 +1005,14 @@ header.fade-in {
     margin-bottom: 60px;
 } */
 
+.project_counting {
+    position: sticky;
+    top: 15vh;
+    z-index: 100;
+    font-size: 60px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    perspective: 1000px;
+}
