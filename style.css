@@ -1049,3 +1049,8 @@ header.fade-in {
 .projects{
     width: 100vw;
 }
+
+.project a{
+    text-decoration: none;
+    color: white;
+}
