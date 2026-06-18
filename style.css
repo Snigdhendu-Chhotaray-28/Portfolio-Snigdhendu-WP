@@ -1016,3 +1016,14 @@ header.fade-in {
     gap: 10px;
     perspective: 1000px;
 }
+
+.scrolling_num {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform-origin: center center;
+    transform: rotateX(0deg);
+    right: 20px; /* Consolidated position */
+}
