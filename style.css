@@ -1054,3 +1054,9 @@ header.fade-in {
     text-decoration: none;
     color: white;
 }
+
+.proj1 p,
+.proj1 i{
+    color: #000000;
+}
+
