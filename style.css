@@ -1082,3 +1082,8 @@ header.fade-in {
     
 }
 
+.proj{
+    position: static;
+    /* top: calc(var(--project_div) * 20px); */
+    top: 50px;
+}
