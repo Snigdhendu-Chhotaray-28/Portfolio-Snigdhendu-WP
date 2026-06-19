@@ -1087,3 +1087,8 @@ header.fade-in {
     /* top: calc(var(--project_div) * 20px); */
     top: 50px;
 }
+
+.project3 {
+    /* margin-bottom: -50px;  */
+}
+
