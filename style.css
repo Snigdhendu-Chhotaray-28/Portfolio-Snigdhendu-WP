@@ -1060,3 +1060,8 @@ header.fade-in {
     color: #000000;
 }
 
+.project{
+    width: 50vw;
+    gap: 50px;
+}
+
