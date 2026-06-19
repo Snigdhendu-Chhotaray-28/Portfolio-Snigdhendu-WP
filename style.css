@@ -1065,3 +1065,20 @@ header.fade-in {
     gap: 50px;
 }
 
+.project_div{
+    width: 50vw;
+    background-color: #00d4ff;
+    align-items: center;
+    overflow: hidden;
+    
+    border-left: 2px solid rgb(42, 42, 42);
+    border-right: 2px solid rgb(42, 42, 42);
+    border-bottom: 2px solid rgb(42, 42, 42);
+
+    background: linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(255, 255, 255) 50%, rgb(42, 42, 42) 100%);
+
+    /* background-color: #00d4ff; */
+    border-radius: 25px;
+    
+}
+
