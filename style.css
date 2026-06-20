@@ -1104,3 +1104,15 @@ header.fade-in {
 
     border-radius: 25px;
 }
+
+.msg{
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    gap: 30px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
