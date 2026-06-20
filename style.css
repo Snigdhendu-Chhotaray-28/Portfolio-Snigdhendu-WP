@@ -1116,3 +1116,10 @@ header.fade-in {
     font-size: 20px;
 }
 
+.project_img{
+    width: 98%;
+    /* height: 97%; */
+    margin: 8px 0px;
+    overflow: hidden;
+    border-radius: 20px;
+}
