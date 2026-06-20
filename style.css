@@ -1092,3 +1092,15 @@ header.fade-in {
     /* margin-bottom: -50px;  */
 }
 
+.project_div_inner{
+    width: 50vw;
+    height: 100%;
+    background-color: #000000;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+    top: 1px;
+
+    border-radius: 25px;
+}
