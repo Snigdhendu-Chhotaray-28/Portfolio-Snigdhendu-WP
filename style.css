@@ -1137,3 +1137,8 @@ header.fade-in {
 .project_div:hover .project_img img{
     transform: rotate(-4deg) scale(1.1);
 }
+
+.project1 .project_img{
+    background: linear-gradient(195deg,rgba(255, 228, 179, 1) 0%, rgba(255, 216, 143, 1) 14%, rgba(255, 209, 125, 1) 27%, rgba(255, 209, 125, 1) 100%);
+}
+
