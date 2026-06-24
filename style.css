@@ -1169,3 +1169,8 @@ header.fade-in {
     background: linear-gradient(195deg,rgba(87, 33, 69, 1) 0%, rgba(69, 14, 50, 1) 14%, rgba(44, 0, 29, 1) 27%, rgba(44, 0, 29, 1) 100%);
 }
 
+.project4 .project_img:hover{
+    background: linear-gradient(195deg,rgb(99, 40, 80) 0%, rgb(76, 16, 55) 14%, rgb(52, 0, 34) 27%, rgb(52, 0, 34) 100%);
+    transition: all 5s ease;
+}
+
