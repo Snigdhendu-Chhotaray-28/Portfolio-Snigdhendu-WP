@@ -1183,3 +1183,8 @@ header.fade-in {
     transition: all 5s ease;
 }
 
+.project_img:hover .right_arrow{
+    font-size: 25px;
+    transform: translateX(10px);
+    transition: all 0.8s ease;
+}
