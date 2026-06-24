@@ -1174,3 +1174,7 @@ header.fade-in {
     transition: all 5s ease;
 }
 
+.project5 .project_img{
+    background: linear-gradient(195deg,rgba(53, 66, 97, 1) 0%, rgba(39, 51, 82, 1) 14%, rgba(23, 34, 62, 1) 27%, rgba(23, 34, 62, 1) 100%);
+}
+
