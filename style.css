@@ -1225,3 +1225,10 @@ header.fade-in {
     font-family: "Instrument Serif", serif;
     font-size: 30px;
 }
+
+.project_des p{
+    font-family: "Outfit", sans-serif;
+    margin: 10px 0px 20px 0px;
+    position: relative;
+    left: 40px;
+}
