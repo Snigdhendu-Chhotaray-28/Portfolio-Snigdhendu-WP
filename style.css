@@ -1220,3 +1220,8 @@ header.fade-in {
 .display{
     display: block;
 }
+
+.project_des h2{
+    font-family: "Instrument Serif", serif;
+    font-size: 30px;
+}
