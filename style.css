@@ -1216,3 +1216,7 @@ header.fade-in {
 .project_des1{
     margin-top: 20px;
 }
+
+.display{
+    display: block;
+}
