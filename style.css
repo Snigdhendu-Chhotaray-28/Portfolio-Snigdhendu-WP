@@ -1232,3 +1232,10 @@ header.fade-in {
     position: relative;
     left: 40px;
 }
+
+.bar_div{
+    width: 20px;
+    height: 1px;
+    align-self: center;
+    margin-right: 10px;
+}
