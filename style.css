@@ -1239,3 +1239,7 @@ header.fade-in {
     align-self: center;
     margin-right: 10px;
 }
+
+.project_des h2{
+    justify-content: left;
+}
