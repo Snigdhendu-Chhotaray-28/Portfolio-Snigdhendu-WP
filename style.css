@@ -1243,3 +1243,11 @@ header.fade-in {
 .project_des h2{
     justify-content: left;
 }
+
+.points ul{
+    list-style: none;
+    position: relative;
+    left: 40px;
+    font-size: 14px;
+}
+
