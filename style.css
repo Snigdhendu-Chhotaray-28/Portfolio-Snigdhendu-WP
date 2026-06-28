@@ -1266,3 +1266,7 @@ header.fade-in {
     border: 1px solid #ffa496;
 }
 
+.points1 path {
+    fill: #ffa496 !important;
+}
+
