@@ -1270,3 +1270,6 @@ header.fade-in {
     fill: #ffa496 !important;
 }
 
+.bar_div2{
+    border: 1px solid rgb(255, 96, 176);
+}
