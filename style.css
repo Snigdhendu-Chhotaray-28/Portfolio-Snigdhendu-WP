@@ -1286,4 +1286,7 @@ header.fade-in {
     fill: rgb(96, 162, 64) !important;
 }
 
+.bar_div4{
+    border: 1px solid #ff0000;
+}
 
