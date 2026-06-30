@@ -1281,3 +1281,9 @@ header.fade-in {
 .bar_div3{
     border: 1px solid rgb(96, 162, 64);
 }
+
+.points3 path {
+    fill: rgb(96, 162, 64) !important;
+}
+
+
