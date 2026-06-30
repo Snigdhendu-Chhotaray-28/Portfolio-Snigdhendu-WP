@@ -1299,3 +1299,6 @@ header.fade-in {
     border: 1px solid rgb(33, 96, 255);
 }
 
+.points5 path {
+    fill: rgb(33, 96, 255) !important;
+}
