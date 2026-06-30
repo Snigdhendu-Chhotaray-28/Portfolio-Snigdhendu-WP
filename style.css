@@ -1290,3 +1290,8 @@ header.fade-in {
     border: 1px solid #ff0000;
 }
 
+.points4 path {
+    fill: rgb(44, 0, 29) !important;
+    stroke: #ff0000;
+}
+
