@@ -1328,3 +1328,9 @@ header.fade-in {
 .projects_tools li img{
     width: 25px;
 }
+
+.aws img{
+    position: relative;
+    top: 2px;
+}
+
