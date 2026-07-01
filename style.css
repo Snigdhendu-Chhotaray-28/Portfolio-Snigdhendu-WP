@@ -1311,3 +1311,16 @@ header.fade-in {
     left: 40px;
     margin-top: 40px;
 }
+.projects_tools li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    list-style: none;
+    padding: 4px 10px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.721);
+    border-radius: 11px;
+    font-size: 14px;
+    font-family: "Geist Mono", monospace;
+    margin-right: 0px;
+}
