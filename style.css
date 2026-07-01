@@ -1324,3 +1324,7 @@ header.fade-in {
     font-family: "Geist Mono", monospace;
     margin-right: 0px;
 }
+
+.projects_tools li img{
+    width: 25px;
+}
