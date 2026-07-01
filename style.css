@@ -1302,3 +1302,12 @@ header.fade-in {
 .points5 path {
     fill: rgb(33, 96, 255) !important;
 }
+
+.projects_tools{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    left: 40px;
+    margin-top: 40px;
+}
