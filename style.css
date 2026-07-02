@@ -1343,3 +1343,13 @@ header.fade-in {
     align-items: center;
 }
 
+.education_bar{
+    position: absolute;
+    margin-top: 2%;
+    width: 5px;
+    /* height: 100%; */
+    background: linear-gradient(180deg, #000000 0%, rgb(104, 104, 104) 20%, rgb(104, 104, 104) 50%, rgb(104, 104, 104) 80%, #252525 100%);
+    border-radius: 50px;
+    border: 1px solid rgb(141, 141, 141);
+    left: 50%;
+}
