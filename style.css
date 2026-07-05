@@ -1421,3 +1421,7 @@ header.fade-in {
     align-self: flex-end;
 }
 
+.detels h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
