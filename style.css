@@ -1401,3 +1401,12 @@ header.fade-in {
     transition: all 1s ease;
 }
 
+.education_description {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.462);
+    padding-top: 20px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.5s ease 0.2s; /* Delayed fade-in */
+}
+
