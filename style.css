@@ -1416,3 +1416,8 @@ header.fade-in {
     transform: translateY(0);
 }
 
+.detels1,
+.detels3{
+    align-self: flex-end;
+}
+
