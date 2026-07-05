@@ -1410,3 +1410,9 @@ header.fade-in {
     transition: all 0.5s ease 0.2s; /* Delayed fade-in */
 }
 
+/* Show description when card is expanded */
+.detels:hover .education_description {
+    opacity: 1;
+    transform: translateY(0);
+}
+
