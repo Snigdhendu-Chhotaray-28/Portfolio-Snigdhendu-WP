@@ -1425,3 +1425,11 @@ header.fade-in {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.detels_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
