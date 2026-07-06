@@ -1433,3 +1433,13 @@ header.fade-in {
     margin-bottom: 20px;
 }
 
+.detels_heading span{
+    margin-right: 20px;
+    padding: 3px 5px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.149);
+    border: 1px solid rgba(255, 255, 255, 0.149);
+    color: rgba(255, 255, 255, 0.563);
+    border-radius: 20px;
+    font-family: monospace;
+}
