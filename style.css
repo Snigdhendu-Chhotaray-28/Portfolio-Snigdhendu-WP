@@ -1448,3 +1448,7 @@ header.fade-in {
     margin: 20px 0px 10px 0px;
 }
 
+.education_2ndLine span, .education_2ndLine i{
+    color: rgb(162, 162, 162);
+}
+
