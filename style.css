@@ -1459,3 +1459,12 @@ header.fade-in {
     /* padding: 5rem 5rem; */
 }
 
+.skill .heading {
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: var(--sub-header-txt);
+    font-weight: 600;
+    display: block; /* Ensures it acts like a block element for align-self/margin-bottom */
+}
+
+
