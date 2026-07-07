@@ -1452,3 +1452,10 @@ header.fade-in {
     color: rgb(162, 162, 162);
 }
 
+
+/* ============================ Skills Section ============================ */
+.skill {
+    background-color: var(--alt-bg-secondary-color);
+    /* padding: 5rem 5rem; */
+}
+
