@@ -1467,4 +1467,7 @@ header.fade-in {
     display: block; /* Ensures it acts like a block element for align-self/margin-bottom */
 }
 
+.skill .heading span {
+    color: var(--alt-text-color);
+}
 
