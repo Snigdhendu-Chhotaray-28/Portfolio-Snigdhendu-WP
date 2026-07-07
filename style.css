@@ -1443,3 +1443,8 @@ header.fade-in {
     border-radius: 20px;
     font-family: monospace;
 }
+
+.education_2ndLine div{
+    margin: 20px 0px 10px 0px;
+}
+
