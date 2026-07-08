@@ -1471,3 +1471,8 @@ header.fade-in {
     color: var(--alt-text-color);
 }
 
+.skill .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem ;
+}
