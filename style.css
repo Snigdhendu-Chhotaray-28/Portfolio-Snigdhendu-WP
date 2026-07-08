@@ -1476,3 +1476,15 @@ header.fade-in {
     justify-content: space-between;
     padding: 3rem ;
 }
+
+.col1,
+.col2 {
+    width: 40%;
+    border: 2px solid #00fffb;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: var(--alt-bg-primary-color);
+    background-size: cover;
+    background-position: top;
+}
+
