@@ -1503,3 +1503,12 @@ header.fade-in {
     margin-bottom: 1rem;
 }
 
+.left-skill,
+.right-skill {
+    width: 94%;
+    height: 0.5rem;
+    border-radius: 5px;
+    margin: 10px 0px 20px 0px;
+    border: 1px solid #00fffb;
+}
+
