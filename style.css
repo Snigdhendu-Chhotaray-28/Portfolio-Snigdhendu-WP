@@ -1512,3 +1512,11 @@ header.fade-in {
     border: 1px solid #00fffb;
 }
 
+/* Skill Bar Gradients */
+.left-skill-1 { background: linear-gradient(to right, #3498db 95%, transparent 0%); }
+.left-skill-2 { background: linear-gradient(to right, #3498db 80%, transparent 0%); }
+.left-skill-3 { background: linear-gradient(to right, #3498db 75%, transparent 0%); }
+.left-skill-4 { background: linear-gradient(to right, #3498db 90%, transparent 0%); }
+.left-skill-5 { background: linear-gradient(to right, #3498db 30%, transparent 0%); }
+.left-skill-6 { background: linear-gradient(to right, #3498db 60%, transparent 0%); }
+
