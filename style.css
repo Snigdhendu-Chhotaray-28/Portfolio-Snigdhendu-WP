@@ -1527,3 +1527,9 @@ header.fade-in {
 .right-skill-5 { background: linear-gradient(to right, #3498db 80%, transparent 0%); }
 .right-skill-6 { background: linear-gradient(to right, #3498db 70%, transparent 0%); }
 
+/* ============================ Skill Tools ============================ */
+.skill_toole{
+    align-items: center;
+    margin-top: -150px;
+    overflow-x: hidden;
+}
