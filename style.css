@@ -1496,3 +1496,10 @@ header.fade-in {
     background: url(/Resources/Untitled\ image_2025.09.27_X-Design.jpg);
     background-position: bottom;
 }
+
+.col1 h3,
+.col2 h3 {
+    font-size: var(--higher_txt);
+    margin-bottom: 1rem;
+}
+
