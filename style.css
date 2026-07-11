@@ -1545,3 +1545,12 @@ header.fade-in {
     flex-direction: column; /* Added for alignment in a flex_col parent */
 }
 
+#rotatingSquare {
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-0%, -0%) rotate(0deg); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.05s linear;
+}
