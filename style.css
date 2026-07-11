@@ -1533,3 +1533,15 @@ header.fade-in {
     margin-top: -150px;
     overflow-x: hidden;
 }
+
+.tool_heading{
+    height: 400px;
+    /* background-image: url(/Resources/3d\ abstract\ video\ with\ ceramic\ and\ gold\ alive\ flower_imgupscaler.ai_General_16K.jpg); */
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex; /* Added for alignment in a flex_col parent */
+    flex-direction: column; /* Added for alignment in a flex_col parent */
+}
+
