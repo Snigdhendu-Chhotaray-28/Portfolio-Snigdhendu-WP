@@ -1571,4 +1571,11 @@ header.fade-in {
     font-size: 12px;
 }
 
+.tools_line img{
+    width: 50px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 25;
+}
 
