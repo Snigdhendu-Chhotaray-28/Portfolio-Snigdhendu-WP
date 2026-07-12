@@ -1588,3 +1588,13 @@ header.fade-in {
     position: relative;
     bottom: 40px;
 }
+
+/* Erroser styles moved here, assuming this is an intentional graphic element */
+.erroser{
+    width: 40px;
+    position: absolute;
+    bottom: 400px;
+    left: 48%;
+    transform: rotate(-50deg);
+    transform-origin: bottom;
+}
