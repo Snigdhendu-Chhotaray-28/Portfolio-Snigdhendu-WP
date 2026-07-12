@@ -1554,3 +1554,16 @@ header.fade-in {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.05s linear;
 }
+
+.tool_heading_text{
+    height: 100%;
+    width: 500px;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(0deg, #000000 0%, #000000 20%, #00000000 100%);
+    padding-bottom: 100px;
+    z-index: 2;
+    display: flex; /* Added for alignment in a flex_col parent */
+    flex-direction: column; /* Added for alignment in a flex_col parent */
+}
+
