@@ -1567,3 +1567,8 @@ header.fade-in {
     flex-direction: column; /* Added for alignment in a flex_col parent */
 }
 
+.tool_heading_text p{
+    font-size: 12px;
+}
+
+
