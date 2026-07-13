@@ -1612,3 +1612,14 @@ header.fade-in {
     height: 500px;
     background-color: #002733;
 }
+
+/* Animation for tools_line img (reposition) */
+@keyframes reposition {
+    0% {
+        transform: rotate(calc(var(--tools_element) * -20deg)) translateY(100px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(0px);
+    }
+}
+
