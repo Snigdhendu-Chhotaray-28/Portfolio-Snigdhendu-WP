@@ -1607,3 +1607,8 @@ header.fade-in {
     border-radius: 10px 10px 0px 0px;
 }
 
+.erroser_bottom_bar{
+    width: 100%;
+    height: 500px;
+    background-color: #002733;
+}
