@@ -1638,3 +1638,10 @@ header.fade-in {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
 }
 
+.form-container .heading { /* Targeted .heading specifically inside form-container */
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
