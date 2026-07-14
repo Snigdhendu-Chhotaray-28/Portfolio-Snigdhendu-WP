@@ -1628,3 +1628,13 @@ header.fade-in {
 .orange {
   color: #ff7a01;
 }
+
+.form-container {
+  max-width: 700px;
+  margin: 30px;
+  background-color: #001925;
+  padding: 30px;
+  border-left: 5px solid #ff7a01;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
