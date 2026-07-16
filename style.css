@@ -1698,3 +1698,9 @@ header.fade-in {
   transition: all 0.2s ease-in-out;
 }
 
+.form-container .form .button-container .send-button:hover {
+  background: transparent;
+  border: 1px solid #ff7a01;
+  color: #ff7a01;
+}
+
