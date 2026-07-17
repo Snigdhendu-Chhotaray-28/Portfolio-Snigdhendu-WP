@@ -1704,3 +1704,9 @@ header.fade-in {
   color: #ff7a01;
 }
 
+.form-container .form .button-container .reset-button-container {
+  filter: drop-shadow(1px 1px 0px #ff7a01);
+  flex-basis: 30%;
+}
+
+
