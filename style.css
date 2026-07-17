@@ -1726,3 +1726,13 @@ header.fade-in {
 }
 
 
+/* ========================== Footer ========================== */ 
+.footer_content{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    display: flex; /* Added flex properties assuming it's a flex container */
+    flex-direction: row; /* Assuming default row layout */
+}
