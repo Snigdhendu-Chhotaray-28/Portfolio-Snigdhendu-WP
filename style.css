@@ -1720,3 +1720,9 @@ header.fade-in {
   transition: all 0.2s ease-in-out;
 }
 
+.form-container .form .button-container .reset-button-container .reset-button:hover {
+  background: #ff7a01;
+  color: #001925;
+}
+
+
