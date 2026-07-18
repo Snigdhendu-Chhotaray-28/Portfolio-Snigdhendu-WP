@@ -1742,3 +1742,8 @@ header.fade-in {
     display: flex; /* Added flex properties assuming it's a flex container */
 }
 
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
