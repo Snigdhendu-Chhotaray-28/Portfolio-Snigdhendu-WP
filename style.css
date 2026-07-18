@@ -1736,3 +1736,9 @@ header.fade-in {
     display: flex; /* Added flex properties assuming it's a flex container */
     flex-direction: row; /* Assuming default row layout */
 }
+
+.footer_socials{
+    align-items: center;
+    display: flex; /* Added flex properties assuming it's a flex container */
+}
+
