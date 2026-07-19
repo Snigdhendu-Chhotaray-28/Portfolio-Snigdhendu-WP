@@ -1767,4 +1767,11 @@ header.fade-in {
   width: 24px;
 }
 
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5px;
+}
 
