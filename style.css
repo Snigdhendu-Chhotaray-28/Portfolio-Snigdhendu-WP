@@ -1761,3 +1761,10 @@ header.fade-in {
   transition: 0.3s;
   justify-content: center;
 }
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+
