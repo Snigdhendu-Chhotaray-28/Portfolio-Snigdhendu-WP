@@ -1784,3 +1784,8 @@ header.fade-in {
   padding: 2px;
   width: 80px;
 }
+
+#gmail img{
+  /* fill: #1da1f2; */
+  width: 35px;
+}
