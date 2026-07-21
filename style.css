@@ -1775,3 +1775,8 @@ header.fade-in {
   margin-left: 5px;
 }
 
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
