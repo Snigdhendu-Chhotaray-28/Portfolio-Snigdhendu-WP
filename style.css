@@ -1812,3 +1812,7 @@ header.fade-in {
     display: flex; /* Added flex properties assuming it's for centering content */
     justify-content: center; /* Added flex properties assuming it's for centering content */
 }
+
+.arrow_up:hover{
+    transform: translateY(-5px);
+}
