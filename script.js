@@ -15,3 +15,9 @@ let currentProgress = 0;
 let targetProgress = 0;
 let animationFrameId = null; 
 let tickingScroll = false; 
+
+// Variables for the Education Bar animation
+let barAnimationFrame = null;
+let currentBarHeight = 0;
+let targetBarHeight = 0;
+
