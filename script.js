@@ -21,3 +21,7 @@ let barAnimationFrame = null;
 let currentBarHeight = 0;
 let targetBarHeight = 0;
 
+// Variables for the Eraser animation
+let targetRotation = -50; 
+let currentRotation = -50;
+
