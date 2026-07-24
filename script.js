@@ -41,6 +41,23 @@ function createStars(count) {
     const starContainer = document.getElementById('star-container');
     if (!starContainer) return;
 
-   
+    for (let i = 0; i < count; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        
+        // Random size between 1px and 3px
+        const size = Math.random() * 2 + 1; 
+        
+        // Random position (0 to 98vw/vh) to cover the screen and avoid edge cutoff
+        const x = Math.random() * 98;
+        const y = Math.random() * 98;
+        
+        // Random delay (negative value starts animation instantly at a random point)
+        const delay = Math.random() * -15; 
+        // Random duration (5s to 15s) for varied twinkle speed
+        const duration = Math.random() * 10 + 5; 
+
+    
+    }
 }
 
