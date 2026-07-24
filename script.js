@@ -37,6 +37,10 @@ let currentRotation = -50;
  * @param {number} count The number of stars to generate.
  */
 function createStars(count) {
-        
+    // The star container is assumed to be a full-screen element (e.g., in index.html)
+    const starContainer = document.getElementById('star-container');
+    if (!starContainer) return;
+
+   
 }
 
