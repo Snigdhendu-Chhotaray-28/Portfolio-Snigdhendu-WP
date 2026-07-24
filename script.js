@@ -57,7 +57,14 @@ function createStars(count) {
         // Random duration (5s to 15s) for varied twinkle speed
         const duration = Math.random() * 10 + 5; 
 
-    
+        star.style.width = `${size}px`;
+        star.style.height = `${size}px`;
+        star.style.left = `${x}vw`;
+        star.style.top = `${y}vh`;
+        star.style.animationDelay = `${delay}s`;
+        star.style.animationDuration = `${duration}s`;
+        
+        starContainer.appendChild(star);
     }
 }
 
