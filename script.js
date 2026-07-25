@@ -115,7 +115,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const imgDiv = document.querySelector('.img_div');
     const wavingHand = document.querySelector('.waving__hand');
 
-    
+    if (imgDiv && wavingHand) {
+        imgDiv.addEventListener('mouseenter', () => {
+            wavingHand.classList.add('waving__hand_animation');
+        });
+
+        imgDiv.addEventListener('mouseleave', () => {
+            wavingHand.classList.remove('waving__hand_animation');
+        });
+    }
 
     // Initialize Geolocation and Time Update
     initializeGeolocation();
