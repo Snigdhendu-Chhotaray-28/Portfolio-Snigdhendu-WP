@@ -81,7 +81,28 @@ window.addEventListener('load', function() {
     
     if (!dotLoader || !loadingContainer || !mainPage || !header) return;
 
-    
+    // Step 1: Show dot loader for 1.5 seconds
+    setTimeout(() => {
+        dotLoader.classList.add('fade-out');
+        
+        // Step 2: After dot loader fades, start the main page loading animation
+        setTimeout(() => {
+            dotLoader.style.display = 'none';
+            
+            // Trigger the main loading animation
+            loadingContainer.classList.add('start-animation');
+            
+            // Step 3: After main loading animation completes (1900ms), reveal the content
+            setTimeout(() => {
+                mainPage.classList.add('fade-in');
+                header.classList.add('fade-in');
+
+                // NEW: Initialize star field after page reveal
+                createStars(1000); 
+
+            }, 1900); 
+        }, 500); 
+    }, 1500); 
 });
 
 
