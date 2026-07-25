@@ -106,3 +106,16 @@ window.addEventListener('load', function() {
 });
 
 
+// =========================================================================
+// DOM Content Loaded: Star Field, Waving Hand, Initial Setup
+// =========================================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Waving Hand Animation on profile image hover
+    const imgDiv = document.querySelector('.img_div');
+    const wavingHand = document.querySelector('.waving__hand');
+
+    
+
+
+});
