@@ -117,5 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
 
-
+    // Initialize Geolocation and Time Update
+    initializeGeolocation();
 });
