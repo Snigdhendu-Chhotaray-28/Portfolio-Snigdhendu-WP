@@ -68,3 +68,20 @@ function createStars(count) {
     }
 }
 
+
+// =========================================================================
+// Page Loading & Dot Loader Control
+// =========================================================================
+
+window.addEventListener('load', function() {
+    const dotLoader = document.getElementById('dotLoader');
+    const loadingContainer = document.querySelector('.loading');
+    const mainPage = document.querySelector('.main__page');
+    const header = document.querySelector('header');
+    
+    if (!dotLoader || !loadingContainer || !mainPage || !header) return;
+
+    
+});
+
+
