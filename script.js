@@ -128,3 +128,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize Geolocation and Time Update
     initializeGeolocation();
 });
+
+// ... (Rest of existing JS functions like calculateProgress, easeInOutCubic, animateEraser) ...
+
+
+// =========================================================================
+// Experience Bar Scroll Animation Logic
+// Fills a vertical bar and moves an image along its path based on scroll position.
+// =========================================================================
+
+/**
+ * Calculates the scroll progress within the 'experience' section.
+ * Uses adjusted viewport/section heights for smoother bar timing.
+ */
+function calculateProgress() {
+    const experienceSection = document.querySelector('.experience');
+    if (!experienceSection) return 0;
+    
+    const scrollPosition = window.scrollY;
+    const sectionTop = experienceSection.offsetTop;
+    const sectionHeight = experienceSection.scrollHeight;
+    const windowHeight = window.innerHeight;
+    
+
+}
