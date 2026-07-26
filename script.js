@@ -150,5 +150,16 @@ function calculateProgress() {
     const sectionHeight = experienceSection.scrollHeight;
     const windowHeight = window.innerHeight;
     
-
+    // Formula to calculate progress:
+    // It accounts for the scroll needed to bring the section into view,
+    // and adjusts the total distance to make the bar fill more gradually 
+    // (using 60% of windowHeight at the start and 40% at the end).
+    let progress = (scrollPosition - sectionTop + (windowHeight * 0.6)) / 
+                   (sectionHeight + (windowHeight * 0.4));
+    
+    // Clamp progress between 0 and 1
+    progress = Math.max(0, Math.min(1, progress));
+    
+    // Apply easing for a smoother, more natural start and end
+    return easeInOutCubic(progress);
 }
