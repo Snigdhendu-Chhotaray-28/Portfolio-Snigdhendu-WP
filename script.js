@@ -163,3 +163,13 @@ function calculateProgress() {
     // Apply easing for a smoother, more natural start and end
     return easeInOutCubic(progress);
 }
+
+/**
+ * Cubic ease-in-out function for smooth acceleration and deceleration.
+ * @param {number} t - Progress (0 to 1).
+ * @returns {number} - Eased progress (0 to 1).
+ */
+function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
