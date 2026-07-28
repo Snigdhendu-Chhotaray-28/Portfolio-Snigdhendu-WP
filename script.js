@@ -186,6 +186,9 @@ function updateBarAndImage(progress) {
     // 1. Update filled bar height
     bar.style.height = `${barHeight}px`;
     
-   
+    // 2. Position image: Image moves from bottom (maxBarHeight) to top (0)
+    const imagePosition = maxBarHeight - barHeight;
+    barImg.style.bottom = `${Math.max(0, Math.min(maxBarHeight, imagePosition))}px`;
+    
     
 }
