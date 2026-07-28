@@ -183,5 +183,9 @@ function updateBarAndImage(progress) {
     const maxBarHeight = experienceBar.scrollHeight;
     const barHeight = progress * maxBarHeight;
     
+    // 1. Update filled bar height
+    bar.style.height = `${barHeight}px`;
+    
+   
     
 }
