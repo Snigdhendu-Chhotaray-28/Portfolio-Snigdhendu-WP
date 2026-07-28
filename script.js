@@ -195,5 +195,9 @@ function updateBarAndImage(progress) {
     barImg.style.transform = `translateY(50%) scale(${scale})`;
     barImg.style.opacity = '1';
     
-    
+    // 4. Color and Glow effects based on progress (0: red-ish, 1: green-ish)
+    const hue = progress * 120; // 0 (red) to 120 (green)
+    barImg.style.borderColor = `hsla(${hue}, 80%, 65%, 0.8)`;
+    const glowIntensity = 10 + (progress * 20);
+    barImg.style.boxShadow = `0 0 ${glowIntensity}px rgba(59, 130, 246, ${0.5 + progress * 0.3})`;
 }
