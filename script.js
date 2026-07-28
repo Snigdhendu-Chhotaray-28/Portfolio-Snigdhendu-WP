@@ -190,5 +190,10 @@ function updateBarAndImage(progress) {
     const imagePosition = maxBarHeight - barHeight;
     barImg.style.bottom = `${Math.max(0, Math.min(maxBarHeight, imagePosition))}px`;
     
+    // 3. Apply subtle scale and ensure visibility
+    const scale = 0.9 + (progress * 0.1);
+    barImg.style.transform = `translateY(50%) scale(${scale})`;
+    barImg.style.opacity = '1';
+    
     
 }
