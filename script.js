@@ -173,3 +173,15 @@ function easeInOutCubic(t) {
     return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 }
 
+/**
+ * Updates the visual height of the bar and the position/style of the image.
+ * @param {number} progress - The eased scroll progress (0 to 1).
+ */
+function updateBarAndImage(progress) {
+    if (!experienceBar || !bar || !barImg) return;
+    
+    const maxBarHeight = experienceBar.scrollHeight;
+    const barHeight = progress * maxBarHeight;
+    
+    
+}
