@@ -212,6 +212,11 @@ function animateProgress() {
     
     updateBarAndImage(currentProgress);
     
-    
+    // Continue animation until the current progress is very close to the target
+    if (Math.abs(targetProgress - currentProgress) > 0.001) {
+        animationFrameId = requestAnimationFrame(animateProgress);
+    } else {
+        animationFrameId = null;
+    }
 }
 
