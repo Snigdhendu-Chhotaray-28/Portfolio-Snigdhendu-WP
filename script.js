@@ -220,3 +220,14 @@ function animateProgress() {
     }
 }
 
+/**
+ * Main function called by the scroll handler to update the target and start rAF.
+ */
+function bar_motion_scrolling() {
+    targetProgress = calculateProgress();
+    
+    // Start the animation loop if it's not already running
+    if (!animationFrameId) {
+        animationFrameId = requestAnimationFrame(animateProgress);
+    }
+}
