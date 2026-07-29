@@ -201,3 +201,17 @@ function updateBarAndImage(progress) {
     const glowIntensity = 10 + (progress * 20);
     barImg.style.boxShadow = `0 0 ${glowIntensity}px rgba(59, 130, 246, ${0.5 + progress * 0.3})`;
 }
+
+/**
+ * Smoothly interpolates the current progress towards the target progress 
+ * using requestAnimationFrame (rAF).
+ */
+function animateProgress() {
+    // Easing factor (0.25) controls the animation speed. Higher = faster response.
+    currentProgress += (targetProgress - currentProgress) * 0.25;
+    
+    updateBarAndImage(currentProgress);
+    
+    
+}
+
