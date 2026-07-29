@@ -231,3 +231,16 @@ function bar_motion_scrolling() {
         animationFrameId = requestAnimationFrame(animateProgress);
     }
 }
+
+/**
+ * Throttled scroll handler using requestAnimationFrame for performance.
+ */
+function handleScroll() {
+    if (!tickingScroll) {
+        window.requestAnimationFrame(() => {
+            bar_motion_scrolling();
+            tickingScroll = false;
+        });
+        tickingScroll = true;
+    }
+}
