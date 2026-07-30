@@ -260,3 +260,10 @@ if (barImg) {
         barImg.style.animation = 'imageFloat 4s ease-in-out infinite'; 
     });
 }
+
+// Clean up animation frame on page unload
+window.addEventListener('beforeunload', () => {
+    if (animationFrameId) {
+        cancelAnimationFrame(animationFrameId);
+    }
+});
