@@ -244,3 +244,8 @@ function handleScroll() {
         tickingScroll = true;
     }
 }
+
+// Attach event listeners
+document.addEventListener('scroll', handleScroll, { passive: true });
+window.addEventListener('resize', bar_motion_scrolling);
+
