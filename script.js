@@ -249,3 +249,14 @@ function handleScroll() {
 document.addEventListener('scroll', handleScroll, { passive: true });
 window.addEventListener('resize', bar_motion_scrolling);
 
+// Image hover pulse effect
+if (barImg) {
+    barImg.addEventListener('mouseenter', () => {
+        barImg.style.animation = 'imagePulse 1s ease-in-out infinite';
+    });
+
+    barImg.addEventListener('mouseleave', () => {
+        // 'imageFloat' is assumed to be the default floating animation
+        barImg.style.animation = 'imageFloat 4s ease-in-out infinite'; 
+    });
+}
