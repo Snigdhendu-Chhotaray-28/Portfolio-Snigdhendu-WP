@@ -274,6 +274,15 @@ window.addEventListener('beforeunload', () => {
 // =========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
+    const pointer = document.getElementById('details-pointer');
+    
+    if (!pointer) return;
+
+    let targetX = window.innerWidth / 2; // Target cursor X position
+    let targetY = window.innerHeight / 2; // Target cursor Y position
+    let currentX = targetX; // Current pointer X position
+    let currentY = targetY; // Current pointer Y position
+
     
 });
 
