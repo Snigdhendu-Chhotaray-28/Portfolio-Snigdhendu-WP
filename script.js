@@ -292,7 +292,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Smooth follow animation loop using rAF
     function animatePointer() {
-        
+        // "Lerp" (linear interpolation) effect for smooth follow
+        // Moves current position 20% closer to the target position each frame
+        currentX += (targetX - currentX) * 0.2;
+        currentY += (targetY - currentY) * 0.2;
+
+        // Apply transform. The second translate is to center the element (50% of its size)
+        pointer.style.transform = `translate(${currentX}px, ${currentY}px) translate(-50%, -50%)`;
+
+        requestAnimationFrame(animatePointer);
     }
     
     animatePointer();
