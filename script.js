@@ -267,3 +267,14 @@ window.addEventListener('beforeunload', () => {
         cancelAnimationFrame(animationFrameId);
     }
 });
+
+
+// =========================================================================
+// Custom Pointer Motion (Cursor Follow)
+// =========================================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    
+});
+
+
