@@ -283,6 +283,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentX = targetX; // Current pointer X position
     let currentY = targetY; // Current pointer Y position
 
+    // Capture target position when mouse moves
+    document.addEventListener('mousemove', (e) => {
+        targetX = e.clientX;
+        // The -110 offset is likely to visually align the custom pointer with a specific element
+        targetY = e.clientY - 110; 
+    });
+
     
 });
 
