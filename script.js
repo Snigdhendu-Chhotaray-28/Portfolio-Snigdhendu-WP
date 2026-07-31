@@ -290,7 +290,12 @@ document.addEventListener('DOMContentLoaded', () => {
         targetY = e.clientY - 110; 
     });
 
+    // Smooth follow animation loop using rAF
+    function animatePointer() {
+        
+    }
     
+    animatePointer();
 });
 
 
