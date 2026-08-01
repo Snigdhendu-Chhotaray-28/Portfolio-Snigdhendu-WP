@@ -318,5 +318,15 @@ function pointer_motion(){
     
     if (!pointer || projectDivs.length === 0) return;
     
-    
+    projectDivs.forEach(project => {
+        project.addEventListener('mouseenter', () => {
+            pointer.classList.remove('hide');
+            pointer.classList.add('visible');
+        });
+
+        project.addEventListener('mouseleave', () => {
+            pointer.classList.remove('visible');
+            pointer.classList.add('hide');
+        });
+    });
 }
