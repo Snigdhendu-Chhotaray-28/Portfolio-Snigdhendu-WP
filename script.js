@@ -307,3 +307,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// =========================================================================
+// Pointer Visibility Control on Project Hover
+// Toggles a separate pointer element for projects
+// =========================================================================
+
+function pointer_motion(){
+    const pointer = document.querySelector('.pointer');
+    const projectDivs = document.querySelectorAll('.project_div');
+    
+    if (!pointer || projectDivs.length === 0) return;
+    
+    
+}
