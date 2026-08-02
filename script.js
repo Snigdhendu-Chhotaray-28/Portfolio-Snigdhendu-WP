@@ -395,7 +395,21 @@ document.addEventListener('DOMContentLoaded', () => {
         currentProjectIndex = newIndex;
     }
 
+    /**
+     * Toggles the 'display' class on the project description for animation control (via CSS).
+     */
+    function animateProjectDescription(idx, show, delay = 0) {
+        const projectDes = projectDescriptions[idx];
+        if (!projectDes) return;
 
+        setTimeout(() => {
+            if (show) {
+                projectDes.classList.add('display');
+            } else {
+                projectDes.classList.remove('display');
+            }
+        }, delay);
+    }
 
 
 
