@@ -330,3 +330,32 @@ function pointer_motion(){
         });
     });
 }
+
+// Initialize the pointer visibility control
+pointer_motion();
+
+
+// =========================================================================
+// Project Scrolling Animation with 3D Number Rotation
+// =========================================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    const projects = document.querySelectorAll('.project_div');
+    const scrollingNum = document.querySelector('.scrolling_num');
+    const numElements = scrollingNum.querySelectorAll('div');
+    const projectDescriptions = document.querySelectorAll('.project_des');
+    
+    let currentProjectIndex = -1;
+    let lastScrollY = window.scrollY;
+
+
+
+
+
+
+
+
+    
+});
+
+
