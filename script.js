@@ -362,7 +362,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const visibleHeight = Math.min(rect.bottom, windowHeight) - Math.max(rect.top, 0);
         const visibilityPercentage = (visibleHeight / elementHeight) * 100;
 
-        
+        if(visibilityPercentage >= 5){
+            // Special case for the first project when scrolling down
+            if(index === 0 && scrollDirection === "down"){
+                return true;
+            }
+            // Special case for the last project when scrolling up
+            else if(index === 4 && scrollDirection === "up"){
+                return true;
+            }
+            else{
+                // Stricter visibility check for intermediate projects
+                // 50% visibility when scrolling up, 70% when scrolling down
+                return scrollDirection === "up" ? visibilityPercentage >= 50 : visibilityPercentage >= 70;
+            }
+        }
         return false;
     }
 
