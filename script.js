@@ -348,7 +348,23 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentProjectIndex = -1;
     let lastScrollY = window.scrollY;
 
+    // --- Utility Functions ---
 
+    /**
+     * Checks if a project element is visible in the viewport based on scroll direction.
+     * Special visibility thresholds are used for the first (0) and last (4) projects.
+     */
+    function isElementInViewport(el, index, scrollDirection) {
+        const rect = el.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+        
+        const elementHeight = rect.height;
+        const visibleHeight = Math.min(rect.bottom, windowHeight) - Math.max(rect.top, 0);
+        const visibilityPercentage = (visibleHeight / elementHeight) * 100;
+
+        
+        return false;
+    }
 
 
 
