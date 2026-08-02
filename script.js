@@ -380,6 +380,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return false;
     }
 
+    /**
+     * Updates the 3D rotation of the number box to show the current project index.
+     */
+    function updateProjectNumber(newIndex) {
+        if (newIndex < 0 || newIndex >= numElements.length || newIndex === currentProjectIndex) return;
+
+        // Rotation logic: Each of the 5 numbers is 72 degrees apart (360 / 5 = 72)
+        const rotationDeg = 72 * newIndex;
+        
+        // Rotate the entire box on the X-axis
+        scrollingNum.style.transform = `rotateX(${rotationDeg}deg)`;
+        
+        currentProjectIndex = newIndex;
+    }
 
 
 
