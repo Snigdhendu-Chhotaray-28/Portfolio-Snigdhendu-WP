@@ -411,7 +411,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }, delay);
     }
 
+    // --- Main Scroll Handler ---
 
+    function handleProjectScroll() {
+        const currentScrollY = window.scrollY;
+        const scrollDirection = currentScrollY > lastScrollY ? 'down' : 'up';
+        lastScrollY = currentScrollY;
+
+        let newProjectIndex = -1;
+ 
+        projects.forEach((project, index) => {
+            // Find the project that meets the visibility threshold
+            if (isElementInViewport(project, index, scrollDirection)) {
+                newProjectIndex = index;
+            }
+        });
+
+        
+    }
 
     
 });
