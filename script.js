@@ -458,5 +458,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, { passive: true });
 
+    // Initial setup for the 3D number box structure
+    if (scrollingNum) {
+        scrollingNum.style.transformStyle = 'preserve-3d';
+        scrollingNum.style.transform = 'rotateX(0deg)';
+    }
+
+    // Position each number element inside the 3D box
+    numElements.forEach((num, i) => {
+        // Each number is rotated back by a multiple of -72deg and pushed forward by 40px
+        num.style.transform = `rotateX(${i * -72}deg) translateZ(40px)`;
+    });
+    
+    // Initial check to set the correct number/description on page load
+    handleProjectScroll();
 });
 
