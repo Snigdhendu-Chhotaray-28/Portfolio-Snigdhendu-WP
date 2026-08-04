@@ -443,7 +443,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // --- Initialization and Throttling ---
 
+    // Throttle scroll events for better performance
+    let tickingProjectScroll = false;
+
+    window.addEventListener('scroll', () => {
+        if (!tickingProjectScroll) {
+            window.requestAnimationFrame(() => {
+                handleProjectScroll();
+                tickingProjectScroll = false;
+            });
+            tickingProjectScroll = true;
+        }
+    }, { passive: true });
 
 });
 
