@@ -427,10 +427,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        
+        // Update if a new project is in focus
+        if (newProjectIndex !== -1 && newProjectIndex !== currentProjectIndex) {
+            
+            // 1. Hide the description of the previously active project
+            if (currentProjectIndex >= 0 && currentProjectIndex < projects.length) {
+                animateProjectDescription(currentProjectIndex, false);
+            }
+
+            // 2. Update the 3D number rotation
+            updateProjectNumber(newProjectIndex);
+            
+            // 3. Show the description of the new project with no delay
+            animateProjectDescription(newProjectIndex, true, 0);
+        }
     }
 
-    
-});
 
+
+});
 
