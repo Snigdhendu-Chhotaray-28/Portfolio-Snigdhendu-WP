@@ -506,6 +506,20 @@ function animateBarHeight() {
     const eduBar = document.querySelector('.education_bar');
     if (!eduBar) return;
     
+    // Easing factor (0.15): controls animation speed. Higher = faster.
+    const easingFactor = 0.15; 
+    currentBarHeight += (targetBarHeight - currentBarHeight) * easingFactor;
     
+    // Apply the smoothly interpolated height
+    eduBar.style.height = `${currentBarHeight}px`;
+    
+    // Continue animation until close enough to target
+    if (Math.abs(targetBarHeight - currentBarHeight) > 0.5) {
+        barAnimationFrame = requestAnimationFrame(animateBarHeight);
+    } else {
+        // Snap to final value to prevent continuous tiny updates
+        eduBar.style.height = `${targetBarHeight}px`;
+        barAnimationFrame = null;
+    }
 }
 
