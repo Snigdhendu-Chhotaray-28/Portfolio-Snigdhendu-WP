@@ -499,5 +499,13 @@ function education_bar_height() {
     }
 }
 
-
+/**
+ * Smoothly animates the education bar height towards the target height using rAF.
+ */
+function animateBarHeight() {
+    const eduBar = document.querySelector('.education_bar');
+    if (!eduBar) return;
+    
+    
+}
 
