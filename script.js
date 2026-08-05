@@ -474,3 +474,22 @@ document.addEventListener('DOMContentLoaded', () => {
     handleProjectScroll();
 });
 
+
+// =========================================================================
+// Animated Education Bar Height Adjustment
+// The vertical bar expands/collapses based on the details container's height.
+// =========================================================================
+
+/**
+ * Calculates the target height for the education bar based on the
+ * total height of the education details container.
+ */
+function education_bar_height() {
+    const eduBar = document.querySelector('.education_bar');
+    const eduDetails = document.querySelector('.education_detels');
+    
+    
+}
+
+
+
