@@ -488,7 +488,15 @@ function education_bar_height() {
     const eduBar = document.querySelector('.education_bar');
     const eduDetails = document.querySelector('.education_detels');
     
+    if (!eduBar || !eduDetails) return;
     
+    // Calculate target height (total height of details container - 50px offset)
+    targetBarHeight = eduDetails.offsetHeight - 50;
+    
+    // Start animation if not already running
+    if (!barAnimationFrame) {
+        animateBarHeight();
+    }
 }
 
 
