@@ -523,3 +523,9 @@ function animateBarHeight() {
     }
 }
 
+
+// Initial setup with smooth entrance
+document.addEventListener('DOMContentLoaded', () => {
+    // Initial calculation after a short delay
+    setTimeout(education_bar_height, 300); 
+});
