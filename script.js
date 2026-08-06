@@ -529,3 +529,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial calculation after a short delay
     setTimeout(education_bar_height, 300); 
 });
+
+// Recalculate on window resize with debouncing
+let resizeTimeout;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(education_bar_height, 150);
+});
+
+
+
