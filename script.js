@@ -537,5 +537,11 @@ window.addEventListener('resize', () => {
     resizeTimeout = setTimeout(education_bar_height, 150);
 });
 
+// Clean up animation frame on page unload
+window.addEventListener('beforeunload', () => {
+    if (barAnimationFrame) {
+        cancelAnimationFrame(barAnimationFrame);
+    }
+});
 
 
