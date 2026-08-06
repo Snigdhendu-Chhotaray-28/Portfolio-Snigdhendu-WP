@@ -545,3 +545,11 @@ window.addEventListener('beforeunload', () => {
 });
 
 
+// =========================================================================
+// Skill Flower Rotation based on Total Scroll Progress
+// =========================================================================
+
+const rotatingSquare = document.getElementById('rotatingSquare');
+// tools_line_img is a NodeList declared at the top of the script
+const tools_line_img = document.querySelectorAll('.tools_line img'); 
+
