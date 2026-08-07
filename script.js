@@ -553,3 +553,13 @@ const rotatingSquare = document.getElementById('rotatingSquare');
 // tools_line_img is a NodeList declared at the top of the script
 const tools_line_img = document.querySelectorAll('.tools_line img'); 
 
+/**
+ * Rotates the main skill square ('rotatingSquare') based on the total page scroll depth.
+ */
+function handleScrollRotation() {
+    if (!rotatingSquare) return;
+
+    const scrollY = window.scrollY;
+    // Calculate the total scrollable distance
+    
+}
