@@ -561,5 +561,19 @@ function handleScrollRotation() {
 
     const scrollY = window.scrollY;
     // Calculate the total scrollable distance
+    const scrollableDistance = document.body.scrollHeight - window.innerHeight;
+
+    let scrollProgress = 0;
+    if (scrollableDistance > 0) {
+        // Scroll progress is 0 (top) to 1 (bottom)
+        scrollProgress = scrollY / scrollableDistance; 
+    }
     
+    // Defines the number of full rotations the square should complete over the whole page
+    const rotations = 5; 
+    const maxAngle = 360 * rotations; 
+    const rotationAngle = scrollProgress * maxAngle;
+
+    // Apply rotation
+    rotatingSquare.style.transform = `translate(-0%, -0%) rotate(${rotationAngle}deg)`;
 }
