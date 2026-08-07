@@ -577,3 +577,8 @@ function handleScrollRotation() {
     // Apply rotation
     rotatingSquare.style.transform = `translate(-0%, -0%) rotate(${rotationAngle}deg)`;
 }
+
+window.addEventListener('scroll', handleScrollRotation);
+// Initial execution to set the correct rotation on load
+handleScrollRotation();
+
