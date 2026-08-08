@@ -617,6 +617,17 @@ function skill_img_rotation(){
             //     img.style.transform = `translateX(${value * factor * 3}%) rotate(${value * factor}deg)`;  
             // }
         }
+        // State 2: Element is well above the viewport (rect.top > 350)
+        else if(rect.top >= 350){
+            // Images are fully dispersed off-screen
+            // if(window.innerWidth >= 900){
+                img.style.transform = `translateX(${value * 110}%) rotate(${value * 30}deg)`;
+            // }
+            // else{
+            //     img.style.transform = `translateX(${value * 90}%) rotate(${value * 30}deg)`;
+            // }
+            
+        }
         
     });
 }
