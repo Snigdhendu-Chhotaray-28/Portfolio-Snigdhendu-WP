@@ -600,6 +600,13 @@ function skill_img_rotation(){
     
     const rect = skillToolElement.getBoundingClientRect();
 
-    
+    // The logic depends on rect.top (distance from viewport top)
+    tools_line_img.forEach((img, index) => {
+        // Retrieve the custom CSS variable value for a unique transform per image
+        const toolsElementValue = img.style.getPropertyValue('--tools_element').trim();
+        const value = parseInt(toolsElementValue); // Should be -1, 1, -2, 2, etc.
+
+        
+    });
 }
 
