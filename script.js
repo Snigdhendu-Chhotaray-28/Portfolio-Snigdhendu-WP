@@ -582,3 +582,24 @@ window.addEventListener('scroll', handleScrollRotation);
 // Initial execution to set the correct rotation on load
 handleScrollRotation();
 
+
+// =========================================================================
+// Skill Image Dispersion Animation
+// Images move and rotate based on the scroll position relative to their container.
+// =========================================================================
+
+/**
+ * Animates the skill tool images based on the position of the '.skill_toole' element
+ * relative to the viewport. Creates a "dispersing" effect.
+ */
+function skill_img_rotation(){
+    const windowHeight = window.innerHeight;
+    const skillToolElement = document.querySelector('.skill_toole');
+    
+    if (!skillToolElement) return;
+    
+    const rect = skillToolElement.getBoundingClientRect();
+
+    
+}
+
