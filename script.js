@@ -606,6 +606,17 @@ function skill_img_rotation(){
         const toolsElementValue = img.style.getPropertyValue('--tools_element').trim();
         const value = parseInt(toolsElementValue); // Should be -1, 1, -2, 2, etc.
 
+        // State 1: Element is scrolling up and near the center of the viewport (rect.top between 0 and 350)
+        if(rect.top > 0 && rect.top < 350){
+            // Images move/rotate towards their initial resting position (0, 0)
+            const factor = rect.top / 10;
+            // if(window.innerWidth < 900){
+                img.style.transform = `translateX(${value * factor * 5}%) rotate(${value * factor}deg)`;  
+            // }
+            // else{
+            //     img.style.transform = `translateX(${value * factor * 3}%) rotate(${value * factor}deg)`;  
+            // }
+        }
         
     });
 }
