@@ -628,7 +628,11 @@ function skill_img_rotation(){
             // }
             
         }
-        
+        // State 3: Element is fully in view or below the fold (rect.top <= 0)
+        else{
+            // Images are in their default, non-dispersed state
+            img.style.transform = `translate(-0%, -0%) rotate(0deg)`;
+        }
     });
 }
 
