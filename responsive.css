@@ -1,0 +1,13 @@
+/* ======================== Page Resppnsive ======================== */
+@media (max-width: 1300px) {
+    .experience__bar{
+        right: 70%;
+    }
+
+    .erroser{
+        height: 530px;
+        width: 40px;
+    }
+}
+
+
