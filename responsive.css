@@ -23,3 +23,8 @@
     }
 }
 
+@media (max-width: 1131px) {
+    .projects_tools{
+        margin-top: 10px;
+    }
+}
