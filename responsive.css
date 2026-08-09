@@ -10,4 +10,16 @@
     }
 }
 
+@media (max-width: 1206px) {
+    .about{
+        margin: 40px 60px;
+        justify-content: space-between;
+    }
+    .about_content .content{
+        margin: 0px 100px 0px -100px;
+    }
+    .about_content .content .outfit-font{
+        width: 450px;
+    }
+}
 
