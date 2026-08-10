@@ -41,6 +41,33 @@
         margin: 0px 50px 0px -50px;
     }
 
+    .project_img{
+        height: 450px;
+    }
+    .project_img img{
+        position: relative;
+        padding: 40px;
+        border-radius: 60px;
+        top: 50px;
+    }
+
+    .projects_tools{
+        margin-top: 20px;
+    }
+    .projects_tools li{
+        border: none;
+        /* background-color: white; */
+        width: auto;
+        height: auto;
+        /* border-radius: 5px; */
+        padding: 0px;
+    }
+    .projects_tools li img{
+        width: 40px;
+    }
+    .projects_tools span{
+        display: none;
+    }
 
     .erroser{
         /* height: 500px; */
